@@ -1,0 +1,48 @@
+﻿
+> app-temp@0.1.0 lint
+> next lint
+
+node.exe : 
+At C:\Program 
+Files\nodejs\npm.ps1:29 
+char:3
++   & $NODE_EXE 
+$NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (:  
+  String) [], RemoteExc   
+ eption
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+./src/components/layout/Fo
+oter.tsx
+3:10  Error: 'motion' is 
+defined but never used.  @
+typescript-eslint/no-unuse
+d-vars
+
+./src/components/sections/
+About.tsx
+22:16  Error: `'` can be 
+escaped with `&apos;`, 
+`&lsquo;`, `&#39;`, 
+`&rsquo;`.  react/no-unesc
+aped-entities
+
+./src/components/sections/
+Hero.tsx
+28:18  Error: `'` can be 
+escaped with `&apos;`, 
+`&lsquo;`, `&#39;`, 
+`&rsquo;`.  react/no-unesc
+aped-entities
+
+info  - Need to disable 
+some ESLint rules? Learn 
+more here: https://nextjs.
+org/docs/basic-features/es
+lint#disabling-rules

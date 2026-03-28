@@ -1,0 +1,67 @@
+KALALI SAI RAM GOUD
+Hyderabad, Telangana, India
++919963225803| 23211a6745@gmail.com| linkedin.com/in/kalalisairamgoud| github.com/KalaliSaiRam
+EDUCATION
+Bachelor of Technology                                                                                                                     2023 – 2027
+Computer Science and Engineering (Data Science)
+B V Raju Institute of Technology                                                                                                       CGPA: 8.57/10
+EXPERIENCE
+ApexPlanet Software Pvt. Ltd.                                                                                                                    Virtual
+Web Development Intern                                                                                                       July 2025 – Aug 2025
+•  Developed responsive web interfaces using HTML, CSS, and JavaScript, improving cross-device compatibility
+and user experience.
+•  Implemented interactive components using DOM manipulation and event-driven scripting to enhance user
+interaction.
+•  Delivered multiple front-end modules following responsive design principles and modern UI best practices.
+RESEARCH & DEVELOPMENT
+An Explainable Transformer Architecture for Multi-Class Brain Tumour Classification from MRI Scans
+•  Manuscript under review at Computer Methods and Programs in Biomedicine (SCI Q1, IF: 4.8)
+•  Proposed a hybrid CNN–Transformer architecture (TriModel) for automated multi-class brain tumour classification
+from MRI scans
+•  Achieved 99.54% classification accuracy through optimised multi-phase training and comprehensive evaluation
+•  Incorporated  explainable  AI  using  Grad-CAM  and  Structured  Explanation  Cards  (SEC)  for  interpretable
+tumour localisation
+PROJECTS
+AI-Powered Brain Tumour MRI Analysis Platform
+Python, PyTorch, OpenCV, FastAPI, React
+•  Developed  a  full-stack  AI  system  for  automated  brain  tumour  classification  from  MRI  scans,  extending
+research work into a deployable application.
+•  Designed an end-to-end pipeline including MRI preprocessing, model inference, and result visualisation for
+real-time prediction.
+•  Integrated explainable AI using Grad-CAM to provide visual tumour localisation, enhancing interpretability
+for end users.
+•  Built a scalable web interface using FastAPI and React, enabling users to upload MRI scans and receive
+instant diagnostic predictions.
+Multimodal AI Quiz Generator from PDFs and Images
+Python, FastAPI, React, OCR, NLP
+•  Developed  a  multimodal  AI  system  that  generates  structured  multiple-choice  questions  from  PDFs  and
+images by combining OCR, NLP, and LLM-based reasoning.
+----------------Page (0) Break----------------
+•  Designed a complete processing pipeline including document parsing, OCR-based text extraction, semantic
+chunking, and context-aware question generation.
+•  Implemented LLM-driven MCQ generation with controlled formatting and answer validation to ensure relevance
+and consistency of generated questions.
+•  Built  a  full-stack  application  using  FastAPI  and  React,  enabling  users  to  upload  learning  materials  and
+dynamically generate quizzes in real time.
+Employee Payroll & Leave Management System
+React.js, Node.js, Express.js, PostgreSQL
+•  Developed a full-stack payroll and leave management system with JWT-based authentication and role-based
+access control for Employee, Manager, and HR roles.
+•  Engineered end-to-end leave workflows with validation logic, including quota enforcement (CL, SL, LOP),
+manager approval flows, and automated payroll deductions.
+•  Designed normalized PostgreSQL schemas and built secure RESTful APIs for payroll processing, employee
+hierarchy mapping, and leave tracking.
+TECHNICAL SKILLS
+Programming Languages           Python, Java, C
+Web Development                        HTML, CSS, JavaScript, React.js, Node.js, Express.js, REST APIs
+Databases                                     PostgreSQL, MySQL, MongoDB
+Core Concepts                             Data Structures and Algorithms, Object-Oriented Programming, DBMS
+Tools                                             Git, GitHub, Postman
+CERTIFICATIONS
+•  Data Structures and Algorithms using Java – IIT Kharagpur                                                             Oct 2024
+•  Salesforce Certified Agentforce Specialist                                                                                        Dec 2025
+•  Python for Data Science – IBM                                                                                                           Jul 2024
+ACHIEVEMENTS
+•  Solved 160+ DSA problems on LeetCode (Rating: 1634).
+•  CodeChef 2-Star (Rating: 1411) and Codeforces max rating 845.
+----------------Page (1) Break----------------

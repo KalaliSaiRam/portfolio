@@ -1,0 +1,148 @@
+﻿
+> app-temp@0.1.0 build
+> next build
+
+  Γû▓ Next.js 14.2.15
+
+   Creating an optimized production build ...
+node.exe :  ΓÜá Compiled 
+with warnings
+At C:\Program 
+Files\nodejs\npm.ps1:29 
+char:3
++   & $NODE_EXE 
+$NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (   
+  ΓÜá Compiled with war   
+ nings:String) [], Rem    
+oteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+
+./src/components/layout/Fo
+oter.tsx
+Attempted import error: 
+'Github' is not exported 
+from '__barrel_optimize__?
+names=Github,Linkedin,Mail
+!=!lucide-react' 
+(imported as 'Github').
+
+Import trace for 
+requested module:
+./src/components/layout/Fo
+oter.tsx
+
+./src/components/layout/Fo
+oter.tsx
+Attempted import error: 
+'Linkedin' is not 
+exported from '__barrel_op
+timize__?names=Github,Link
+edin,Mail!=!lucide-react' 
+(imported as 'Linkedin').
+
+Import trace for 
+requested module:
+./src/components/layout/Fo
+oter.tsx
+
+./src/components/sections/
+Projects.tsx
+Attempted import error: 
+'Github' is not exported 
+from '__barrel_optimize__?
+names=Github,MoveUpRight,X
+!=!lucide-react' 
+(imported as 'Github').
+
+Import trace for 
+requested module:
+./src/components/sections/
+Projects.tsx
+
+ ΓÜá Compiled with 
+warnings
+
+./src/components/layout/Fo
+oter.tsx
+Attempted import error: 
+'Github' is not exported 
+from '__barrel_optimize__?
+names=Github,Linkedin,Mail
+!=!lucide-react' 
+(imported as 'Github').
+
+Import trace for 
+requested module:
+./src/components/layout/Fo
+oter.tsx
+
+./src/components/layout/Fo
+oter.tsx
+Attempted import error: 
+'Linkedin' is not 
+exported from '__barrel_op
+timize__?names=Github,Link
+edin,Mail!=!lucide-react' 
+(imported as 'Linkedin').
+
+Import trace for 
+requested module:
+./src/components/layout/Fo
+oter.tsx
+
+./src/components/sections/
+Projects.tsx
+Attempted import error: 
+'Github' is not exported 
+from '__barrel_optimize__?
+names=Github,MoveUpRight,X
+!=!lucide-react' 
+(imported as 'Github').
+
+Import trace for 
+requested module:
+./src/components/sections/
+Projects.tsx
+
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+Failed to compile.
+
+./src/components/layout/Fo
+oter.tsx:3:10
+Type error: Module 
+'"lucide-react"' has no 
+exported member 'Github'.
+
+[0m [90m 1 |[39m 
+[32m"use client"[39m[33
+m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[
+90m 3 |[39m 
+[36mimport[39m { [33mGi
+thub[39m[33m,[39m [33m
+Linkedin[39m[33m,[39m 
+[33mMail[39m } 
+[36mfrom[39m [32m"lucid
+e-react"[39m[33m;[39m[
+0m
+[0m [90m   |[39m       
+   
+[31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m[0m
+[0m [90m 5 |[39m 
+[36mexport[39m 
+[36mconst[39m 
+[33mFooter[39m 
+[33m=[39m () 
+[33m=>[39m {[0m
+[0m [90m 6 |[39m   
+[36mreturn[39m ([0m

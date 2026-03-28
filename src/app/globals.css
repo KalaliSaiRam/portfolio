@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .aurora-card {
+    @apply bg-white/[0.02] border border-white/[0.05] shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-2xl rounded-2xl relative overflow-hidden transition-all duration-300;
+  }
+  
+  .aurora-card:hover {
+    @apply border-fuchsia-500/30 bg-white/[0.04] shadow-[0_0_40px_-10px_rgba(217,70,239,0.3)];
+  }
+
+  /* Intense multi-gradient button */
+  .aurora-btn {
+    @apply relative overflow-hidden bg-gradient-to-r from-fuchsia-600 via-purple-600 to-cyan-600 text-white shadow-[0_0_30px_rgba(217,70,239,0.4)] transition-all duration-300 rounded-full font-semibold;
+  }
+  
+  .aurora-btn::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-r from-cyan-600 via-purple-600 to-fuchsia-600 opacity-0 transition-opacity duration-300;
+  }
+  
+  .aurora-btn:hover::before {
+    @apply opacity-100;
+  }
+
+  /* Floating animation */
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
