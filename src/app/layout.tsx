@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`scroll-smooth ${sora.variable} ${outfit.variable}`}>
-      <body className="font-outfit bg-[#05030a] text-white antialiased selection:bg-fuchsia-600/30 overflow-x-hidden">
+      <body className="relative font-outfit bg-[#05030a] text-white antialiased selection:bg-fuchsia-600/30 overflow-x-hidden">
         
         {/* Massive Ambient Aurora Background */}
         <div className="fixed inset-0 -z-50 overflow-hidden pointer-events-none">
@@ -45,7 +45,7 @@ export default function RootLayout({
 
         <Cursor />
         <Navbar />
-        <main className="relative z-10 flex min-h-screen flex-col items-center justify-between pb-12 pt-28">
+        <main className="relative flex min-h-screen flex-col items-center justify-between pb-12 pt-28">
           {children}
         </main>
         <Footer />

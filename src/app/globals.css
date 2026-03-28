@@ -39,4 +39,40 @@
 
 html, body {
   scroll-behavior: smooth;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: rgba(217, 70, 239, 0.5) #0a0514; /* Firefox */
+}
+
+/* Global Webkit Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0514;
+  border-left: 1px solid rgba(255, 255, 255, 0.05);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(217, 70, 239, 0.4); /* Fuchsia */
+  border-radius: 10px;
+  border: 2px solid #0a0514; /* Padding trick */
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(217, 70, 239, 0.8);
+}
+
+/* Custom Scrollbar for internal modal scrolling */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  border: none;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(6, 182, 212, 0.5); /* Cyan glow match for modals */
+  border-radius: 10px;
+  border: none;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(6, 182, 212, 0.8);
 }

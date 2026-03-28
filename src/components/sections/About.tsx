@@ -20,7 +20,7 @@ export const About = () => {
               My <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-cyan-400">Journey</span>
             </h2>
             <p className="text-zinc-400 text-lg leading-relaxed font-outfit">
-              I am a B.Tech Computer Science and Engineering (Data Science) student at B V Raju Institute of Technology, Narsapur, Telangana, India. I focus on building intelligent, real-world applications at the intersection of Artificial Intelligence and Full Stack Development.
+              I am a B.Tech Computer Science and Engineering (Data Science) student at B V Raju Institute of Technology, Narsapur, Telangana, India. I focus on building real-world applications at the intersection of Artificial Intelligence and Full Stack Development.
             </p>
           </div>
         </motion.div>

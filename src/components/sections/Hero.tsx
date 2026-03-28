@@ -63,7 +63,7 @@ export const Hero = () => {
           </p>
 
           <p className="text-zinc-500 max-w-lg leading-relaxed text-base">
-            I build intelligent, data-driven systems and scalable web applications, focusing on deploying research-grade AI models into real-world, user-centric products. Passionate about combining deep learning, backend engineering, and intuitive interfaces to deliver impactful solutions.
+            I build AI-based applications and web systems, focusing on turning ideas into real-world, user-friendly products.
           </p>
 
           <div className="flex flex-wrap gap-6 mt-6">
@@ -102,6 +102,7 @@ export const Hero = () => {
                 src="/pic.jpeg"
                 alt="Kalali Sai Ram Goud"
                 fill
+                sizes="(max-width: 768px) 288px, 400px"
                 className="object-cover transition-transform duration-700 hover:scale-110"
                 priority
               />
