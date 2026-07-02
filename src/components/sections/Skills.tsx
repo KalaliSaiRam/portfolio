@@ -6,7 +6,7 @@ import { CheckCircle2 } from "lucide-react";
 const skillsData = [
   {
     category: "Languages & Core",
-    skills: ["Python", "Java", "C", "Data Structures", "Algorithms", "OOP", "DBMS"],
+    skills: ["Java", "Python", "C", "OOPS", "DBMS"],
   },
   {
     category: "Frontend Development",
@@ -14,7 +14,7 @@ const skillsData = [
   },
   {
     category: "Backend & Systems",
-    skills: ["Node.js", "Express.js", "PostgreSQL", "MySQL", "MongoDB", "REST APIs", "Git", "Postman"],
+    skills: ["Node.js", "Express.js", "PostgreSQL", "MySQL", "REST APIs", "Git", "Postman"],
   },
 ];
 
