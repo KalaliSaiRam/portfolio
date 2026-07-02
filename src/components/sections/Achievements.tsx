@@ -28,9 +28,9 @@ const certifications = [
 const stats = [
   {
     platform: "LeetCode",
-    metric: "160+",
+    metric: "254",
     label: "Problems Solved",
-    rating: "Rating: 1634",
+    rating: "Rating: 1664",
     icon: <Code size={24} className="text-[#FFA116]" />
   },
   {
