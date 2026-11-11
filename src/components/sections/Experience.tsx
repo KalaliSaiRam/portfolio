@@ -23,7 +23,7 @@ const experienceData = [
   {
     role: "Research Publication: TriModel",
     company: "Under Review (SCI Q1, IF: 4.8)",
-    duration: "2024 - Present",
+    duration: "2025 - 2026",
     type: "Research & Development",
     description: "Authored 'An Explainable Transformer Architecture for Multi-Class Brain Tumour Classification from MRI Scans'. Proposed a hybrid CNN–Transformer achieving 99.54% accuracy. Incorporated explainable AI using Grad-CAM and Structured Explanation Cards (SEC).",
     image: "/img/research.png"
